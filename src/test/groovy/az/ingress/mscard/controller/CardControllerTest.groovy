@@ -86,12 +86,5 @@ class CardControllerTest extends Specification {
         response.status == HttpStatus.CREATED.value()
     }
 
-    def "TestChangeStatus"(){
-        given:
-        def id = 1L
-        def url = "/v1/cards/$id/status"
-
-
-    }
 
 }
